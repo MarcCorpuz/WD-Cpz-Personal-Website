@@ -494,3 +494,72 @@ span {
     align-items: center;
     flex-direction: column;
 }
+
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact form {
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .input-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box .input-field {
+    position: relative;
+    width: 50%;
+    margin: .8rem 0;
+}
+
+.contact form .input-box .input-field input {
+    width: 80%;
+    height: 40%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid;
+}
+
+.contact form .textarea-field textarea {
+    width: 90%;
+    height: 40%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid;
+}
+
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+    color: white;
+}
+
+.contact form .textarea-field {
+    position: relative;
+    margin: .1 0 1.5rem;
+}
+
+.contact form .textarea-field textarea {
+    resize: none;
+}
+
+.contact form .btn-box.btns .btn {
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
